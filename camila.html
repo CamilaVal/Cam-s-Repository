@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shoe Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Online Shoe Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="product-section">
+        <h2>Featured Shoes</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://th.bing.com/th/id/OIP.iSe0rPkLUHK9JgwySXkXkwHaHa?rs=1&pid=ImgDetMain" alt="Shoe 1">
+                <h3>Running Shoes</h3>
+                <p>$50</p>
+                <button onclick="addToCart('Running Shoes', 50)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://th.bing.com/th/id/R.d1506ba772967f78d3608e38317da964?rik=QtP1GDpWiV4t2A&pid=ImgRaw&r=0" alt="Shoe 2">
+                <h3>Casual Sneakers</h3>
+                <p>$40</p>
+                <button onclick="addToCart('Casual Sneakers', 40)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://th.bing.com/th/id/OIP.S1QDFf4gzMp6dBCNRS6kHwHaHa?pid=ImgDet&w=172&h=172&c=7&dpr=1,1" alt="Shoe 3">
+                <h3>Formal Shoes</h3>
+                <p>$60</p>
+                <button onclick="addToCart('Formal Shoes', 60)">Add to Cart</button>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Camila´s Online Shoe Store. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
